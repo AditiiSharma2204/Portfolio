@@ -382,7 +382,7 @@ article .icon {
 
 #certificate .certificate-icon {
     width: fit-content; /* Set width to fit its content */
-    max-width: 100%; /* Set maximum width to fit its container */
+    max-width: 120px; /* Set maximum width to fit its container */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensure it takes up full width of container */
     margin: 0 auto 10px; /* Center horizontally and add bottom margin */
