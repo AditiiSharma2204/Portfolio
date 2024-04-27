@@ -381,12 +381,12 @@ article .icon {
 }
 
 #certificate .certificate-icon {
-    width: fit-content; /* Set width to fit its content */
-    max-width: 300px; /* Set maximum width to fit its container */
+    width: 300px; /* Set a fixed width */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensure it takes up full width of container */
     margin: 0 auto 10px; /* Center horizontally and add bottom margin */
 }
+
 
 
 /* PROJECTS SECTION */
