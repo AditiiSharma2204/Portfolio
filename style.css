@@ -380,7 +380,7 @@ article .icon {
     margin-right: 0; /* Remove right margin from the last article */
 }
 #certificate .certificate-icon {
-    max-width: 50px; /* Decrease the maximum width of the certificate icon */
+    max-width: 70px; /* Decrease the maximum width of the certificate icon */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 10px; /* Add some bottom margin */
 
@@ -398,8 +398,8 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 70%;
+  height: 70%;
 }
 
 .project-title {
