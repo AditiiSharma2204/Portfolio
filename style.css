@@ -379,10 +379,14 @@ article .icon {
 #certificate article:last-child {
     margin-right: 0; /* Remove right margin from the last article */
 }
+
 #certificate .certificate-icon {
-    max-width: 70px; /* Decrease the maximum width of the certificate icon */
+    width: fit-content; /* Set width to fit its content */
+    max-width: 100%; /* Set maximum width to fit its container */
     height: auto; /* Maintain aspect ratio */
-    margin-bottom: 10px; /* Add some bottom margin */
+    display: block; /* Ensure it takes up full width of container */
+    margin: 0 auto 10px; /* Center horizontally and add bottom margin */
+}
 
 
 /* PROJECTS SECTION */
