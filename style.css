@@ -381,7 +381,7 @@ article .icon {
 }
 
 #certificate .certificate-icon {
-    width: 100px; /* Set certificate icon width */
+    max-width: 80px; /* Decrease the maximum width of the certificate icon */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 10px; /* Add some bottom margin */
 }
