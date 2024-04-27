@@ -351,6 +351,40 @@ article {
 article .icon {
   cursor: default;
 }
+/* CSS for the certificate section */
+#certificate {
+    text-align: center; /* Center-align the content */
+    margin-top: 20px; /* Add some top margin */
+}
+
+#certificate .section__text__p1 {
+    font-size: 18px; /* Adjust paragraph font size */
+}
+
+#certificate .title {
+    font-size: 36px; /* Adjust title font size */
+    margin-bottom: 20px; /* Add some bottom margin */
+}
+
+#certificate .details-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+}
+
+#certificate article {
+    margin-right: 20px; /* Add some right margin between articles */
+    max-width: 300px; /* Limit article width */
+}
+
+#certificate article:last-child {
+    margin-right: 0; /* Remove right margin from the last article */
+}
+
+#certificate .certificate-icon {
+    width: 100px; /* Set certificate icon width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add some bottom margin */
+}
 
 /* PROJECTS SECTION */
 
