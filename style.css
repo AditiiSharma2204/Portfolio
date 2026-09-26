@@ -515,3 +515,63 @@ footer p {
   border: rgb(163, 163, 163) 0.1rem solid;
   color: rgb(85, 85, 85);
 }
+
+/* EXPERIENCE: JOBS */
+
+.jobs-grid,
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(360px, 100%), 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.job-card {
+  text-align: left;
+}
+
+.job-card .job-title {
+  font-size: 1.4rem;
+  margin-bottom: 0.25rem;
+}
+
+.job-meta {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.job-list {
+  padding-left: 1.25rem;
+  text-align: left;
+  color: rgb(85, 85, 85);
+  line-height: 1.5;
+}
+
+.job-list li {
+  margin-bottom: 0.5rem;
+}
+
+.project-note {
+  font-style: italic;
+  padding: 1rem 0;
+}
+
+/* ACHIEVEMENTS */
+
+#certificate .achievements-grid .details-container {
+  display: block;
+  text-align: left;
+}
+
+#certificate .achievements-grid .experience-sub-title {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.achievement-text {
+  line-height: 1.5;
+}
+
+#certificate .certificate-card {
+  margin-top: 2rem;
+}
